@@ -21,4 +21,66 @@ html, body {
     .container {max-width: 1140px;width:100%;}
 }
   
-  
+
+header {
+    padding: 10px 0;
+}
+header > .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    justify-content: space-between;
+}
+.search-form {
+    width: 260px;
+    min-height: 50px;
+    border: 1px solid #c0c0c0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.search-buttom {
+    cursor: pointer;
+    position: relative;
+    background: none;
+    border: 0;
+    padding: 0;
+}
+
+.search-buttom-span {
+    display: block;
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+    padding: 10px;
+}
+
+.search-input {
+    padding-right: 0.8em;
+    line-height: 44px;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    color: #c0c0c0;
+    border: none;
+    width: 100%;
+}
+
+
+.container-header-minu {
+    width: 250px;
+    position: fixed;
+    left: 0;
+    color: #ffffff;
+    background-color: rgb(0 0 0 / 85%);
+    height: 100%;
+}
+
+.close-menu {
+    width: 30px;
+    height: 30px;
+}
+.search-input:focus {border:none}
