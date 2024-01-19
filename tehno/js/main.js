@@ -13,5 +13,10 @@ $(function(){
   $('.overwlay.open').click(function(){
     $(this).removeClass('open');
     $('.container-header-minu').removeClass('open');
+    $('.header-menu-bth').removeClass('active');
+  })
+  $('.close-menu').click(function(){
+    $('.container-header-minu, .overwlay').removeClass('open');
+    $('.header-menu-bth').removeClass('active');
   })
 });
