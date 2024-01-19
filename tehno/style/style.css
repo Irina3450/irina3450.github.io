@@ -34,6 +34,7 @@ header > .container {
     -webkit-box-align: center;
     -ms-flex-align: center;
     justify-content: space-between;
+    align-items: center;
 }
 .search-form {
     width: 260px;
@@ -74,14 +75,40 @@ header > .container {
     width: 250px;
     position: fixed;
     left: 0;
+    top: 0;
     color: #ffffff;
     background-color: rgb(0 0 0 / 85%);
-    height: 100%;
+    margin-left: -250px;
+    transition: margin-left 500ms ease;
+}
+.container-header-minu.open {
+    transition: margin-left 500ms ease;
+    margin-left: 0;
+}
+.container-header-minu ul li {
+    padding: 8px 0;
+}
+
+.container-header-minu ul {
+    text-align: center;
+}
+.container-header-minu ul li a {
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
 }
 .header-menu-bth {
     width: 24px;
     height: 24px;
-    background: #121212;
+   
+}
+.header-menu-buttom-svg-link {
+    width: 24px;
+}
+.overwlay.open {
+    background-color: rgb(0 0 0 / 70%);
+    width: 100%;
+    height: 100vh;
 }
 .close-menu {
     width: 30px;
