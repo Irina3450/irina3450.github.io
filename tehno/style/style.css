@@ -130,7 +130,7 @@ header > .container {
 #bannertop {
     background-image: url(../img/CoverStory_robots.jpg);
     padding: 70px 0 143px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -160,4 +160,5 @@ header > .container {
     color: #fff;
     max-width: 580px;
     font-size: 24px;
+    margin-top: 20px;
 }
