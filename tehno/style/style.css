@@ -9,6 +9,10 @@ html, body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+h2 {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 6rem;
+}
 @media all and (min-width: 768px) {
     .container {width: 750px;}
 }
@@ -125,4 +129,28 @@ header > .container {
 /* Баннер */
 #bannertop {
     background-image: url(../img/CoverStory_robots.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 70px 0 143px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#bannertop h2 {
+    color: #fff;
+    max-width: 580px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+#bannertop h2:before {
+    content: '';
+    position: relative;
+    width: 15px;
+    height: 137px;
+    display: block;
+    background-color: #b9dfdf;
+    margin-bottom: 10px;
 }
