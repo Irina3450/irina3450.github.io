@@ -123,6 +123,6 @@ header > .container {
 .search-input:focus {border:none}
 
 /* Баннер */
-#banner_top {
+#bannertop {
     background-image: url(../img/CoverStory_robots.jpg);
 }
