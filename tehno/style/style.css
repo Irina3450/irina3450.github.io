@@ -162,3 +162,24 @@ header > .container {
     font-size: 24px;
     margin-top: 20px;
 }
+
+
+#human-robot {
+    padding: 70px 0;
+}
+#human-robot {
+    font-family: 'Open Sans',sans-serif;
+}
+.human-robot-text h3 {
+    font-size: 20px;
+}
+
+
+.human-robot-text h2 {
+    color: #111111;
+    font-size: 48px;
+}
+
+.human-robot-text p {
+    font-size: 20px;
+}
