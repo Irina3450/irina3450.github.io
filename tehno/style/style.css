@@ -166,20 +166,32 @@ header > .container {
 
 #human-robot {
     padding: 70px 0;
-}
-#human-robot {
     font-family: 'Open Sans',sans-serif;
+}
+.human-robot-block {
+    display: flex;
 }
 .human-robot-text h3 {
     font-size: 20px;
+    margin-top: 50px
 }
 
 
 .human-robot-text h2 {
     color: #111111;
     font-size: 48px;
+    margin-top: 20px
 }
 
 .human-robot-text p {
-    font-size: 20px;
+    font-size: 20px;font-weight: 300;
+    line-height: 32px;
+    margin-top: 20px
+}
+
+.human-robot-img {
+    min-width: 570px;
+    background: url(../img/robot001.jpg);
+    min-height: 488px;
+    background-size: cover;
 }
