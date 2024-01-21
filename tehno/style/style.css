@@ -170,6 +170,11 @@ header > .container {
 }
 .human-robot-block {
     display: flex;
+    justify-content: center;
+}
+.human-robot-text {
+    max-width: 550px;
+    margin-right: 20px;
 }
 .human-robot-text h3 {
     font-size: 20px;
@@ -180,7 +185,8 @@ header > .container {
 .human-robot-text h2 {
     color: #111111;
     font-size: 48px;
-    margin-top: 20px
+    margin-top: 20px;
+    font-weight: 700;
 }
 
 .human-robot-text p {
