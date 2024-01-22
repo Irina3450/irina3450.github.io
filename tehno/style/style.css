@@ -14,22 +14,22 @@ h2 {
     font-size: 6rem;
 }
 @media all and (min-width: 768px) {
-    .container {width: 750px;}
+    .container-block {width: 750px;}
 }
   
 @media all and (min-width: 992px) {
-    .container {width: 970px;}
+    .container-block {width: 970px;}
 }
 
 @media all and (min-width: 1200px) {
-    .container {max-width: 1140px;width:100%;}
+    .container-block {max-width: 1140px;width:100%;}
 }
   
 
 header {
     padding: 10px 0;
 }
-header > .container {
+header > .container-block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -200,4 +200,64 @@ header > .container {
     background: url(../img/robot001.jpg);
     min-height: 488px;
     background-size: cover;
+}
+#future-work {
+    padding: 70px 0;
+    background: #1a1a1a;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#future-work:before {
+    content: '';
+    width: 50%;
+    background: #b9dfdf;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#future-work h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#future-work p {
+    font-weight: 300;
+    font-size: 1.125rem;
+    font-style: italic;
+    max-width: 475px;
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+#future-work ul {
+    display: flex;
+}
+
+#future-work ul li {
+    width: 190px;
+    background-size: cover;
+}
+
+#future-work ul li:nth-child(1) {
+    background: url(../img/1.jpg);
+}
+#future-work ul li:nth-child(2) {
+    background: url(../img/2.jpg);
+}
+#future-work ul li:nth-child(3) {
+    background: url(../img/3.jpg);
+}
+#future-work ul li:nth-child(4) {
+    background: url(../img/4.jpg);
+}
+#future-work ul li:nth-child(5) {
+    background: url(../img/5.jpg);
+}
+#future-work ul li:nth-child(6) {
+    background: url(../img/6.jpg);
 }
