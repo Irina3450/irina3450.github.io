@@ -328,3 +328,37 @@ header > .container-block {
 .robot-sec-more a:hover {
     background-color: #9dd2d2;
 }
+
+
+.how-work-item-svg-link {
+    width: 58px;
+    fill: #aea16a;
+}
+
+.how-work-block {
+    display: flex;
+}
+
+.how-work-item {
+    padding-left: 30px;
+}
+
+.how-work-item-title {
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: 31px 30px 0 0;
+    color: #aea16a;
+}
+
+.how-work-item p {
+    margin: 30px 30px 1px 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+#how-work {
+    background: #333333;
+    padding: 70px 0;
+    font-family: 'Open Sans',sans-serif;
+}
