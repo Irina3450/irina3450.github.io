@@ -217,6 +217,8 @@ header > .container-block {
     width: 50%;
     background: #b9dfdf;
     background-image: url(../img/1q.png);
+    background-repeat: no-repeat;
+    background-size: 191px;
     height: 100%;
     position: absolute;
     right: 0;
@@ -267,4 +269,20 @@ header > .container-block {
 }
 #future-work ul li:nth-child(6) {
     background-image: url(../img/6.jpg);
+}
+
+#robot-sec {
+    font-family: 'Open Sans',sans-serif;
+}
+.robot-sec-block-item.first-block {display: flex;}
+.robot-sec-block-item-text {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.robot-sec-block-item-img {
+    background-image: url(../img/sec1.jpg);
+}
+.robot-sec-block-images {
+    background-image: url(../img/sec2.jpg);
 }
