@@ -247,42 +247,84 @@ header > .container-block {
 #future-work ul li {
     width: 190px;
     background-size: cover;
+    background-position: center;
     height: 171px;
     z-index: 2;
     position: relative;
 }
 
-#future-work ul li:nth-child(1) {
+#future-work ul li:nth-child(4) {
     background-image: url(../img/1.jpg);
 }
-#future-work ul li:nth-child(2) {
+#future-work ul li:nth-child(1) {
     background-image: url(../img/2.jpg);
 }
-#future-work ul li:nth-child(3) {
+#future-work ul li:nth-child(2) {
     background-image: url(../img/3.jpg);
 }
-#future-work ul li:nth-child(4) {
+#future-work ul li:nth-child(3) {
     background-image: url(../img/4.jpg);
 }
-#future-work ul li:nth-child(5) {
+#future-work ul li:nth-child(6) {
     background-image: url(../img/5.jpg);
 }
-#future-work ul li:nth-child(6) {
+#future-work ul li:nth-child(5) {
     background-image: url(../img/6.jpg);
 }
 
 #robot-sec {
+    padding: 75px 0 45px;
     font-family: 'Open Sans',sans-serif;
 }
-.robot-sec-block-item.first-block {display: flex;}
+.robot-sec-block {
+    display: flex;
+    gap: 10px;
+}
+
+.robot-sec-block-item {
+    width: 373px;
+}
+.robot-sec-block-item.first-block {
+    display: flex;
+    flex-direction: column;
+}
 .robot-sec-block-item-text {
     font-size: 48px;
     font-weight: 700;
-    margin: 20px 0;
+    background: #aea16a;
+    padding: 40px 30px;
+    color: #ffffff;
 }
 .robot-sec-block-item-img {
-    background-image: url(../img/sec1.jpg);
+    height: 263px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/sec2.jpg);
 }
 .robot-sec-block-images {
-    background-image: url(../img/sec2.jpg);
+    background-image: url(../img/sec1.jpg);
+    background-size: cover;
+}
+.robot-sec-block-item.last-block {
+    color: #111111;
+    background-color: #b9dfdf;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 50px 30px;
+}
+.robot-sec-more {
+    padding-top: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.robot-sec-more a {
+    font-size: 16px;
+    color: #111111;
+    background-color: #b9dfdf;
+    padding: 10px 30px;
+}
+
+.robot-sec-more a:hover {
+    background-color: #9dd2d2;
 }
