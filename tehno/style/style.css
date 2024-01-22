@@ -13,6 +13,9 @@ h2 {
     font-family: 'Open Sans',sans-serif;
     font-size: 6rem;
 }
+.container-block {
+    margin: 0 auto;
+}
 @media all and (min-width: 768px) {
     .container-block {width: 750px;}
 }
@@ -202,7 +205,7 @@ header > .container-block {
     background-size: cover;
 }
 #future-work {
-    padding: 70px 0;
+    padding: 70px 0 125px;
     background: #1a1a1a;
     color: #ffffff;
     position: relative;
@@ -213,6 +216,7 @@ header > .container-block {
     content: '';
     width: 50%;
     background: #b9dfdf;
+    background-image: url(../img/1q.png);
     height: 100%;
     position: absolute;
     right: 0;
@@ -241,23 +245,26 @@ header > .container-block {
 #future-work ul li {
     width: 190px;
     background-size: cover;
+    height: 171px;
+    z-index: 2;
+    position: relative;
 }
 
 #future-work ul li:nth-child(1) {
-    background: url(../img/1.jpg);
+    background-image: url(../img/1.jpg);
 }
 #future-work ul li:nth-child(2) {
-    background: url(../img/2.jpg);
+    background-image: url(../img/2.jpg);
 }
 #future-work ul li:nth-child(3) {
-    background: url(../img/3.jpg);
+    background-image: url(../img/3.jpg);
 }
 #future-work ul li:nth-child(4) {
-    background: url(../img/4.jpg);
+    background-image: url(../img/4.jpg);
 }
 #future-work ul li:nth-child(5) {
-    background: url(../img/5.jpg);
+    background-image: url(../img/5.jpg);
 }
 #future-work ul li:nth-child(6) {
-    background: url(../img/6.jpg);
+    background-image: url(../img/6.jpg);
 }
