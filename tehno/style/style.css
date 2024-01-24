@@ -457,3 +457,52 @@ header > .container-block {
     position: relative;
     padding-left: 104px;
 }
+
+
+#artificial {
+    color: #111111;
+    background-color: #b9dfdf;
+    padding: 90px 0;
+}
+
+.artificial-block {
+    display: flex;
+    background-color: #d7eded;
+}
+
+.artificial-img {
+    background-image: url(../img/artificial.jpg);
+    width: 684px;
+}
+
+.artificial-text {
+    padding-left: 33px;
+    padding-right: 20px;
+    font-family: 'Open Sans',sans-serif;
+    max-width: 456px;
+}
+
+.artificial-text h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 53px 0 0;
+}
+
+.artificial-text p {
+    margin: 52px 0 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.artificial-more a {
+    font-size: 16px;
+    color: #111111;
+    background-color: #b9dfdf;
+    padding: 10px 30px;
+    font-weight: 400;
+}
+
+.artificial-more {
+    margin: 52px auto 80px 0;
+}
