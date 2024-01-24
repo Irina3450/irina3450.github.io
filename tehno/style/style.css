@@ -373,7 +373,7 @@ header > .container-block {
 
 #tendencii {
     text-align: center;
-    padding: 35px 0;
+    padding: 35px 0 85px;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -392,18 +392,21 @@ header > .container-block {
     display: flex;
     gap: 30px;
 }
-.tendencii-img-item:nth-child(1) {
-    background-image: url(../img/tendencii1.jpg);
+.tendencii-img-item {
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 361px;
     height: 462px;
+}
+.tendencii-img-item:nth-child(1) {
+    background-image: url(../img/tendencii1.jpg);
+  
 }
 .tendencii-img-item:nth-child(2) {
     background-image: url(../img/tendencii2.jpg);
-    width: 361px;
-    height: 462px;
+
 }
 .tendencii-img-item:nth-child(3) {
     background-image: url(../img/tendencii3.jpg);
-    width: 361px;
-    height: 462px;
+
 }
