@@ -362,3 +362,48 @@ header > .container-block {
     padding: 70px 0;
     font-family: 'Open Sans',sans-serif;
 }
+
+#tendencii h2 {
+    margin: 20px 0 15px;
+    font-size: 3rem;
+    line-height: 1.1;
+    color: #aea16a;
+    font-weight: 700;
+}
+
+#tendencii {
+    text-align: center;
+    padding: 35px 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#tendencii p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    max-width: 792px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.tendencii-img {
+    display: flex;
+    gap: 30px;
+}
+.tendencii-img-item:nth-child(1) {
+    background-image: url(../img/tendencii1.jpg);
+    width: 361px;
+    height: 462px;
+}
+.tendencii-img-item:nth-child(2) {
+    background-image: url(../img/tendencii2.jpg);
+    width: 361px;
+    height: 462px;
+}
+.tendencii-img-item:nth-child(3) {
+    background-image: url(../img/tendencii3.jpg);
+    width: 361px;
+    height: 462px;
+}
