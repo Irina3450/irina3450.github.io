@@ -410,3 +410,50 @@ header > .container-block {
     background-image: url(../img/tendencii3.jpg);
 
 }
+
+#quote {
+    padding: 68px 0 34px;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.quote-svg-link {
+    width: 104px;
+    fill: #aea16a;
+}
+
+.quote-svg {
+    margin-top: 35px;
+}
+
+.quote-block p {
+    margin: 20px 0 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.quote-block span {
+    text-transform: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.875rem;
+    padding: 20px 0 35px;
+    display: block;
+    text-align: right;
+}
+
+.quote-block:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    background: #aea16a;
+    width: 15px;
+    height: 252px;
+    top: 55px;
+}
+
+.quote-block {
+    position: relative;
+    padding-left: 104px;
+}
