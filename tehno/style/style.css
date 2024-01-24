@@ -92,6 +92,7 @@ header > .container-block {
 .container-header-minu.open {
     transition: margin-left 500ms ease;
     margin-left: 0;
+    z-index: 2;
 }
 .container-header-minu ul li {
     padding: 8px 0;
@@ -116,7 +117,7 @@ header > .container-block {
 .overwlay.open {
     z-index: 1;
     background-color: rgb(0 0 0 / 70%);
-    width: calc(100% - 250px);
+    width: 100%;
     height: 100vh;
     right: 0;
     position: fixed;
@@ -249,7 +250,6 @@ header > .container-block {
     background-size: cover;
     background-position: center;
     height: 171px;
-    z-index: 2;
     position: relative;
 }
 
@@ -391,6 +391,7 @@ header > .container-block {
 .tendencii-img {
     display: flex;
     gap: 30px;
+    margin-top: 48px;
 }
 .tendencii-img-item {
     background-repeat: no-repeat;
@@ -552,6 +553,8 @@ header > .container-block {
     background-size: 191px;
     height: 100%;
     width: 50%;
+    right: 0;
+    transform: scale(-1, 1);
 }
 .prospects-text h3 {
     font-size: 1.25rem;
@@ -582,4 +585,93 @@ header > .container-block {
 
 .prospects-more {
     margin: 52px auto 10px 0;
+}
+
+@media all and (max-width: 1200px) {
+    #bannertop {padding: 45px 0 120px}
+    #bannertop h2 {font-size: 42px;}
+    #bannertop h2:before {height: 110px;}
+
+
+    .human-robot-text h2 {font-size: 3rem;line-height: 1.1;}
+    .human-robot-img {min-width: 470px;}
+
+    .robot-sec-block-item-text {flex: 36 0 60%;display: flex;align-items: center;margin-bottom: 12px; }
+    .artificial-text h2 {font-size: 36px;}
+}
+@media all and (max-width: 991px) {
+    #bannertop h2 {
+        max-width: 427px;
+        font-size: 4.5rem;
+    }
+    #bannertop p {
+        max-width: 430px;
+        font-size: 1.25rem;
+    }
+
+    .human-robot-img {
+        min-width: 350px;
+        background-position: 13.79% 50%;
+    }
+    .human-robot-text {
+        max-width: 350px;
+      
+    }
+
+
+    #future-work p {
+        max-width: 333px;
+    }
+    #future-work ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #future-work ul li {
+        width: 360px;
+        height: 340px;
+    }
+
+
+    .robot-sec-block {
+        flex-wrap: wrap;    gap: 14px;
+    }
+    .robot-sec-block-item.first-block {
+        width: 100%;
+    }
+    .robot-sec-block-item-text {
+        flex: 1;
+        min-height: 227px;
+    }
+    .robot-sec-block-item {
+        width: 49%;
+    }
+    .tendencii-img-item {
+        background-position: 73.12% 50%;
+    }
+    .tendencii-img-item:nth-child(2) {
+        background-position: center;
+    }
+
+
+
+    .quote-svg-link {
+        width: 66px;
+    }
+
+
+    .artificial-text {
+        max-width: 288px;
+        padding: 0 10px 0 17px;
+    }
+    .artificial-text h2 {
+        font-size: 2.25rem;
+        word-wrap: break-word;
+    }
+    .artificial-img {
+        background-position: 44.13% 50%;
+    }
+    .prospects-text {
+        max-width: 360px;
+        padding-right: 1px;
+    }
 }
