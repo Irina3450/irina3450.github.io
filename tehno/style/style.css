@@ -473,6 +473,9 @@ header > .container-block {
 .artificial-img {
     background-image: url(../img/artificial.jpg);
     width: 684px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
 }
 
 .artificial-text {
@@ -504,5 +507,64 @@ header > .container-block {
 }
 
 .artificial-more {
+    margin: 52px auto 80px 0;
+}
+
+
+
+
+
+
+
+
+
+#prospects {
+    color: #111111;
+   
+    padding: 90px 0;
+}
+
+.prospects-block {
+    display: flex;
+    
+}
+
+.prospects-img {
+    background-image: url(../img/prospects.jpg);
+    width: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+.prospects-text {
+    padding-left: 33px;
+    padding-right: 20px;
+    font-family: 'Open Sans',sans-serif;
+    max-width: 570px;
+}
+
+.prospects-text h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 53px 0 0;
+}
+
+.prospects-text p {
+    margin: 52px 0 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.prospects-more a {
+    font-size: 16px;
+    color: #111111;
+    background-color: #b9dfdf;
+    padding: 10px 30px;
+    font-weight: 400;
+}
+
+.prospects-more {
     margin: 52px auto 80px 0;
 }
